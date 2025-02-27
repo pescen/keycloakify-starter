@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body {
+    font-family: "Raleway", serif;
+}
+
+.kcButtonClass, .kcButtonPrimaryClass {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #6366F1 !important; /* bg-indigo-500 */
+    border: 1px solid transparent;
+    border-radius: 0.375rem; /* rounded-md */
+    font-weight: 600; /* font-semibold */
+    font-size: 0.75rem; /* text-xs */
+    color: #FFFFFF !important; /* text-white */
+    letter-spacing: 0.1em; /* tracking-widest */
+}
+
+.kcButtonClass:hover {
+    background-color: #374151 !important; /* hover:bg-gray-700 */
+}
+
+.kcButtonClass:focus,
+.kcButtonClass:active {
+    background-color: #1F2937; /* active:bg-gray-900, focus:bg-gray-700 */
+    outline: 2px solid #6366F1; /* focus:ring-indigo-500 */
+    outline-offset: 2px; /* focus:ring-offset-2 */
+}
+
+.kcFormSocialAccountListButtonClass {
+    border-radius: 0.375rem;
+    overflow: hidden;
+}
+
+body.kcBodyClass {
+    background: linear-gradient(45deg, #320167, #525354);
+}
+
+.kcFormCardClass {
+    background-color: rgb(32, 32, 32);
+    border-radius: 0.375rem;
+    padding: 1.5rem; /* p-6 */
+    border-color: none !important;
+    overflow: hidden;
+}
+
+.card-pf {
+    border-color: transparent;
+}
+
+
+
+.kcLabelClass {
+    font-size: 0.875rem; /* text-sm */
+    color: #fff; /* text-gray-900 */
+}
+
+#kc-page-title {
+    color: #fff; /* text-white */
+}
+
+h2 {
+    color: #fff;
+}
+
+.kcInfoAreaWrapperClass {
+    background-color: rgb(48, 48, 48) !important;
+    border-color: none !important;
+    color: #fff;
+}
+
+a {
+    color: #8284e3;
+}
+
+.checkbox {
+    color: #fff !important;
+}
+
+.kcInputClass {
+    background-color: rgb(113, 113, 113) !important;
+    border-color: rgb(113, 113, 113) !important;
+    color: #fff !important;
+    border-radius: 0.375rem !important;
+}
+
+.kcInputGroup {
+    background-color: rgb(113, 113, 113) !important;
+    border-color: rgb(113, 113, 113) !important;
+    border-radius: 0.375rem !important;
+}
+
+input:focus {
+    outline: #8284e3 1px solid !important;
+}
+
+.kcFormPasswordVisibilityButtonClass {
+    background-color: rgb(113, 113, 113) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0 0.375rem 0.375rem 0 !important;
+    overflow: hidden;
+}
+
+.kcInputErrorMessageClass {
+    color: #f06a5b !important;
+}
+
+.kcFormGroupClass {
+    color: #fff !important;
+}
+
+.alert-info {
+    background-color: rgb(185, 185, 185) !important;
+    border-color: #8284e3 !important;
+}
+
+.kcFeedbackInfoIcon {
+    color: #8284e3 !important;
+}
